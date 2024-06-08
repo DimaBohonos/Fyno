@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		329E58E52C13D8CD00B038F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329E58E42C13D8CD00B038F2 /* AppDelegate.swift */; };
+		329E58E72C13D8CD00B038F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329E58E62C13D8CD00B038F2 /* SceneDelegate.swift */; };
+		329E58E92C13D8CD00B038F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329E58E82C13D8CD00B038F2 /* ViewController.swift */; };
+		329E58EC2C13D8CD00B038F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 329E58EA2C13D8CD00B038F2 /* Main.storyboard */; };
+		329E58EE2C13D8D000B038F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 329E58ED2C13D8D000B038F2 /* Assets.xcassets */; };
+		329E58F12C13D8D000B038F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 329E58EF2C13D8D000B038F2 /* LaunchScreen.storyboard */; };
+		329E58FC2C13D8D100B038F2 /* FynoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329E58FB2C13D8D100B038F2 /* FynoTests.swift */; };
+		329E59062C13D8D100B038F2 /* FynoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329E59052C13D8D100B038F2 /* FynoUITests.swift */; };
+		329E59082C13D8D100B038F2 /* FynoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329E59072C13D8D100B038F2 /* FynoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		329E58F82C13D8D100B038F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 329E58D92C13D8CD00B038F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 329E58E02C13D8CD00B038F2;
+			remoteInfo = Fyno;
+		};
+		329E59022C13D8D100B038F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 329E58D92C13D8CD00B038F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 329E58E02C13D8CD00B038F2;
+			remoteInfo = Fyno;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		329E58E12C13D8CD00B038F2 /* Fyno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fyno.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		329E58E42C13D8CD00B038F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		329E58E62C13D8CD00B038F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		329E58E82C13D8CD00B038F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		329E58EB2C13D8CD00B038F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		329E58ED2C13D8D000B038F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		329E58F02C13D8D000B038F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		329E58F22C13D8D000B038F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		329E58F72C13D8D100B038F2 /* FynoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FynoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		329E58FB2C13D8D100B038F2 /* FynoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FynoTests.swift; sourceTree = "<group>"; };
+		329E59012C13D8D100B038F2 /* FynoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FynoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		329E59052C13D8D100B038F2 /* FynoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FynoUITests.swift; sourceTree = "<group>"; };
+		329E59072C13D8D100B038F2 /* FynoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FynoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		329E58DE2C13D8CD00B038F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		329E58F42C13D8D100B038F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		329E58FE2C13D8D100B038F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		329E58D82C13D8CD00B038F2 = {
+			isa = PBXGroup;
+			children = (
+				329E58E32C13D8CD00B038F2 /* Fyno */,
+				329E58FA2C13D8D100B038F2 /* FynoTests */,
+				329E59042C13D8D100B038F2 /* FynoUITests */,
+				329E58E22C13D8CD00B038F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		329E58E22C13D8CD00B038F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				329E58E12C13D8CD00B038F2 /* Fyno.app */,
+				329E58F72C13D8D100B038F2 /* FynoTests.xctest */,
+				329E59012C13D8D100B038F2 /* FynoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		329E58E32C13D8CD00B038F2 /* Fyno */ = {
+			isa = PBXGroup;
+			children = (
+				329E58E42C13D8CD00B038F2 /* AppDelegate.swift */,
+				329E58E62C13D8CD00B038F2 /* SceneDelegate.swift */,
+				329E58E82C13D8CD00B038F2 /* ViewController.swift */,
+				329E58EA2C13D8CD00B038F2 /* Main.storyboard */,
+				329E58ED2C13D8D000B038F2 /* Assets.xcassets */,
+				329E58EF2C13D8D000B038F2 /* LaunchScreen.storyboard */,
+				329E58F22C13D8D000B038F2 /* Info.plist */,
+			);
+			path = Fyno;
+			sourceTree = "<group>";
+		};
+		329E58FA2C13D8D100B038F2 /* FynoTests */ = {
+			isa = PBXGroup;
+			children = (
+				329E58FB2C13D8D100B038F2 /* FynoTests.swift */,
+			);
+			path = FynoTests;
+			sourceTree = "<group>";
+		};
+		329E59042C13D8D100B038F2 /* FynoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				329E59052C13D8D100B038F2 /* FynoUITests.swift */,
+				329E59072C13D8D100B038F2 /* FynoUITestsLaunchTests.swift */,
+			);
+			path = FynoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		329E58E02C13D8CD00B038F2 /* Fyno */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 329E590B2C13D8D100B038F2 /* Build configuration list for PBXNativeTarget "Fyno" */;
+			buildPhases = (
+				329E58DD2C13D8CD00B038F2 /* Sources */,
+				329E58DE2C13D8CD00B038F2 /* Frameworks */,
+				329E58DF2C13D8CD00B038F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fyno;
+			productName = Fyno;
+			productReference = 329E58E12C13D8CD00B038F2 /* Fyno.app */;
+			productType = "com.apple.product-type.application";
+		};
+		329E58F62C13D8D100B038F2 /* FynoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 329E590E2C13D8D100B038F2 /* Build configuration list for PBXNativeTarget "FynoTests" */;
+			buildPhases = (
+				329E58F32C13D8D100B038F2 /* Sources */,
+				329E58F42C13D8D100B038F2 /* Frameworks */,
+				329E58F52C13D8D100B038F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				329E58F92C13D8D100B038F2 /* PBXTargetDependency */,
+			);
+			name = FynoTests;
+			productName = FynoTests;
+			productReference = 329E58F72C13D8D100B038F2 /* FynoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		329E59002C13D8D100B038F2 /* FynoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 329E59112C13D8D100B038F2 /* Build configuration list for PBXNativeTarget "FynoUITests" */;
+			buildPhases = (
+				329E58FD2C13D8D100B038F2 /* Sources */,
+				329E58FE2C13D8D100B038F2 /* Frameworks */,
+				329E58FF2C13D8D100B038F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				329E59032C13D8D100B038F2 /* PBXTargetDependency */,
+			);
+			name = FynoUITests;
+			productName = FynoUITests;
+			productReference = 329E59012C13D8D100B038F2 /* FynoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		329E58D92C13D8CD00B038F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					329E58E02C13D8CD00B038F2 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					329E58F62C13D8D100B038F2 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 329E58E02C13D8CD00B038F2;
+					};
+					329E59002C13D8D100B038F2 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 329E58E02C13D8CD00B038F2;
+					};
+				};
+			};
+			buildConfigurationList = 329E58DC2C13D8CD00B038F2 /* Build configuration list for PBXProject "Fyno" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 329E58D82C13D8CD00B038F2;
+			productRefGroup = 329E58E22C13D8CD00B038F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				329E58E02C13D8CD00B038F2 /* Fyno */,
+				329E58F62C13D8D100B038F2 /* FynoTests */,
+				329E59002C13D8D100B038F2 /* FynoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		329E58DF2C13D8CD00B038F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				329E58F12C13D8D000B038F2 /* LaunchScreen.storyboard in Resources */,
+				329E58EE2C13D8D000B038F2 /* Assets.xcassets in Resources */,
+				329E58EC2C13D8CD00B038F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		329E58F52C13D8D100B038F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		329E58FF2C13D8D100B038F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		329E58DD2C13D8CD00B038F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				329E58E92C13D8CD00B038F2 /* ViewController.swift in Sources */,
+				329E58E52C13D8CD00B038F2 /* AppDelegate.swift in Sources */,
+				329E58E72C13D8CD00B038F2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		329E58F32C13D8D100B038F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				329E58FC2C13D8D100B038F2 /* FynoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		329E58FD2C13D8D100B038F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				329E59082C13D8D100B038F2 /* FynoUITestsLaunchTests.swift in Sources */,
+				329E59062C13D8D100B038F2 /* FynoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		329E58F92C13D8D100B038F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 329E58E02C13D8CD00B038F2 /* Fyno */;
+			targetProxy = 329E58F82C13D8D100B038F2 /* PBXContainerItemProxy */;
+		};
+		329E59032C13D8D100B038F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 329E58E02C13D8CD00B038F2 /* Fyno */;
+			targetProxy = 329E59022C13D8D100B038F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		329E58EA2C13D8CD00B038F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				329E58EB2C13D8CD00B038F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		329E58EF2C13D8D000B038F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				329E58F02C13D8D000B038F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		329E59092C13D8D100B038F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		329E590A2C13D8D100B038F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		329E590C2C13D8D100B038F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7J2RZQ2WC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fyno/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.transformatsi.Fyno;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		329E590D2C13D8D100B038F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7J2RZQ2WC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fyno/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.transformatsi.Fyno;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		329E590F2C13D8D100B038F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7J2RZQ2WC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.transformatsi.FynoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fyno.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fyno";
+			};
+			name = Debug;
+		};
+		329E59102C13D8D100B038F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7J2RZQ2WC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.transformatsi.FynoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fyno.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fyno";
+			};
+			name = Release;
+		};
+		329E59122C13D8D100B038F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7J2RZQ2WC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.transformatsi.FynoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fyno;
+			};
+			name = Debug;
+		};
+		329E59132C13D8D100B038F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7J2RZQ2WC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.transformatsi.FynoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fyno;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		329E58DC2C13D8CD00B038F2 /* Build configuration list for PBXProject "Fyno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				329E59092C13D8D100B038F2 /* Debug */,
+				329E590A2C13D8D100B038F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		329E590B2C13D8D100B038F2 /* Build configuration list for PBXNativeTarget "Fyno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				329E590C2C13D8D100B038F2 /* Debug */,
+				329E590D2C13D8D100B038F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		329E590E2C13D8D100B038F2 /* Build configuration list for PBXNativeTarget "FynoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				329E590F2C13D8D100B038F2 /* Debug */,
+				329E59102C13D8D100B038F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		329E59112C13D8D100B038F2 /* Build configuration list for PBXNativeTarget "FynoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				329E59122C13D8D100B038F2 /* Debug */,
+				329E59132C13D8D100B038F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 329E58D92C13D8CD00B038F2 /* Project object */;
+}
