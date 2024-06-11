@@ -6,7 +6,15 @@
 //
 
 import UIKit
+import MapKit
 
-class CountryModel: NSObject {
-
+struct CountryModel {
+    var countryTitle: String
+    var flag: UIImage?
+    var isoCountryCodes: String
+    var coordinates: CLLocationCoordinate2D?
 }
+
+//class CountryModel: NSObject {
+//
+//}
